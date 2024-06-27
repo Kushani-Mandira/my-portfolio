@@ -1,6 +1,6 @@
 import project1 from "../assets/assets/projects/project-1.png";
 import project2 from "../assets/assets/projects/project-2.jpg";
-import project3 from "../assets/assets/projects/project-3.png";
+// import project3 from "../assets/assets/projects/project-3.png";
 import project4 from "../assets/assets/projects/project-4.png";
 import project5 from "../assets/assets/projects/project-5.png";
 
@@ -55,13 +55,13 @@ export const PROJECTS = [
         "This project involves a web application designed and developed for the e-vehicle renting domain. The application includes features such as Incident Management, Maintenance, Reservations, Packages, and Feedback. I was responsible for designing and developing the Incident Management module. Within this module, I developed functionalities for users to submit, view, and edit vehicle incident details, as well as for administrators to view cost calculations and generate incident reports for both administrators and users.",
       technologies: ["MongoDB", "ExpressJs", "React", "NodeJs"],
     },
-    {
-      title: "Portfolio Website",
-      image: project3,
-      description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    },
+    // {
+    //   title: "Portfolio Website",
+    //   image: project3,
+    //   description:
+    //     "A personal portfolio website showcasing projects, skills, and contact information.",
+    //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    // },
     {
       title: "Notes Mobile App",
       image: project4,
