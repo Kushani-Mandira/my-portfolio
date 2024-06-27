@@ -13,12 +13,12 @@ const Contact = () => {
       className="my-10 text-center text-4xl">Get in Touch
       </motion.h2>
       <div className="text-center tracking-tighter">
-        <motion.p 
+        {/* <motion.p 
         whileInView={{ opacity: 1, x: 0}}
         initial={{ opacity: 0, x: -100}}
         transition={{ duration: 1}}
         className="my-4">{CONTACT.phoneNo}
-        </motion.p>
+        </motion.p> */}
 
         <a href="https://myaccount.google.com/u/1/?utm_source=OGB&utm_medium=app" className="border-b">{CONTACT.email}</a>
       </div>

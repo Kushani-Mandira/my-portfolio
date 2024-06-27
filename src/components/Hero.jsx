@@ -24,7 +24,7 @@ const Hero = () => {
             animate="visible"
 
             
-            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16
+            className="pb-16 text-6xl font-thin tracking-tight 
             lg:text-8xl">Kushani Mandira
             </motion.h2>
 
