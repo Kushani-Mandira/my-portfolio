@@ -83,7 +83,7 @@ export const PROJECTS = [
 
   ];
   export const CONTACT = {
-    phoneNo: "+94764372851",
+    phoneNo: "",
     email: "kushiijayasekara@gmail.com",
   };
   
