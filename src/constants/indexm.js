@@ -23,21 +23,27 @@ export const ABOUT_TEXT = `I am an undergraduate student at SLIIT, driven by sel
 
 
 export const EXPERIENCES = [
-    {
-
-
-        
-            
-              year: "2022",
-              role: "Accociate Formatter",
-              company: "Innodata Lanka",
-              description: `We design website formats for archiving old articles using XML, ensuring structured, accessible, and customizable presentation. Our expertise preserves the original content's integrity, enhancing user experience and maintaining valuable information for future reference.`,
-              technologies: ["XML"],
-            
-
-
-       
-    }
+  {
+    year: "Oct 2025 - Present",
+    role: "Associate QA Engineer",
+    company: "NVISION",
+    description: `Leading quality assurance efforts with a focus on test automation. Responsible for designing and maintaining automated test scripts to improve regression efficiency. Collaborating closely with developers to ensure high-quality releases through both manual verification and automated CI/CD integration.`,
+    technologies: ["Selenium", "Playwright", "Java", "TestNG", "Automation"],
+  },
+  {
+    year: "Apr 2025 - Oct 2025",
+    role: "Quality Assurance Intern",
+    company: "NVISION",
+    description: `Gained hands-on experience in the software testing lifecycle. Focused on executing manual test cases, identifying and reporting bugs, and assisting the QA team in documenting test plans for web-based applications.`,
+    technologies: ["Manual Testing", "Jira", "Bug Reporting", "Regression Testing"],
+  },
+  {
+    year: "2022",
+    role: "Associate Formatter",
+    company: "Innodata Lanka",
+    description: `We design website formats for archiving old articles using XML, ensuring structured, accessible, and customizable presentation. Our expertise preserves the original content's integrity, enhancing user experience and maintaining valuable information for future reference.`,
+    technologies: ["XML"],
+  },
 ];
 
 export const PROJECTS = [
@@ -115,8 +121,48 @@ export const PROJECTS = [
  
        },
 
-      
+];
 
-      
-
+export const CERTIFICATES = [
+  {
+    title: "Auto-Healing and Scaling Applications with AWS",
+    issuer: "Amazon Web Services",
+    link: "/certificates/Auto-Healing and Scaling Applications.pdf", // Path to your PDF
+  },
+  {
+    title: "Configure virtual machine availability",
+    issuer: "Azure",
+    link: "/certificates/Configure virtual machine availability.pdf",
+  },
+  {
+    title: "Configure Virtual Networks",
+    issuer: "Azure",
+    link: "/certificates/Configure Virtual Networks.pdf",
+  },
+  {
+    title: "Databases in Practice",
+    issuer: "Amazon Web Services",
+    link: "/certificates/Databases in Practice.pdf",
+  },
+  {
+    title: "Explore relational database services in Azure",
+    issuer: "Azure",
+    link: "/certificates/Explore relational database services in Azure.pdf",
+  },
+  {
+    title: "Highly Available Web Applications",
+    issuer: "Amazon Web Services",
+    link: "/certificates/Highly Available Web Applications.pdf",
+  },
+  {
+    title: "Improve application scalability and resiliency by using Azure Load Balancer",
+    issuer: "Azure",
+    link: "/certificates/Improve application scalability and resiliency by using Azure Load Balancer.pdf",
+  },
+  {
+    title: "Network Consepts",
+    issuer: "Amazon Web Services",
+    link: "/certificates/network consepts.pdf",
+  },
+  // Add more here...
 ];
